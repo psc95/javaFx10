@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1"
+prefHeight="100" prefWidth="400" alignment="CENTER" spacing="20">
+
+  <children>
+   <Label id="id01" text="검정바탕,노랑글씨" />
+   <!-- id선택자인 id01은 유일해야 한다. 하나의 컨트롤만 선택할 수 있는 방법이다. -->
+   <Label styleClass="idClass" text="파란바탕,흰글씨" />
+   <!-- 클래스 선택자인 idClass는 중복이름을 가질 수 있다. 클래스 선택자는 동시에 여러 컨트롤을 선택가능하다. -->
+   <Label styleClass="idClass" text="파란바탕,흰글씨" />
+  </children>
+</HBox>
